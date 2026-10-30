@@ -1,0 +1,95 @@
+# Local stack. The database password is a placeholder, not a production secret.
+# OPENAI_API_KEY is not set here. An optional .env file is passed when present
+# and DATABASE_URL is overridden so containers use the postgres hostname.
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: atlas
+    ports:
+      - "5432:5432"
+    volumes:
+      - atlas-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U user -d atlas"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  migrate:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: ["alembic", "upgrade", "head"]
+    environment:
+      DATABASE_URL: postgresql://user:password@postgres:5432/atlas
+    env_file:
+      - path: .env
+        required: false
+
+  api:
+    build: .
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+    command: ["python", "-m", "atlas.serve"]
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://user:password@postgres:5432/atlas
+    env_file:
+      - path: .env
+        required: false
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health')",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  ui:
+    build: .
+    depends_on:
+      api:
+        condition: service_healthy
+    command:
+      [
+        "streamlit",
+        "run",
+        "src/atlas/ui/app.py",
+        "--server.address",
+        "0.0.0.0",
+        "--server.port",
+        "8501",
+        "--server.headless",
+        "true",
+        "--browser.gatherUsageStats",
+        "false",
+      ]
+    environment:
+      ATLAS_API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health')",
+        ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  atlas-pgdata:
