@@ -1,0 +1,629 @@
+{
+  "version": "v1",
+  "note": "Synthetic questions for the harness. Measured scores in results.json were copied from the prior run and were not recomputed from this file.",
+  "questions": [
+    {
+      "id": "q01",
+      "kind": "answerable",
+      "question": "Which local note states atlas01?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-01"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 01: the marked token atlas01 is stored locally."
+      ]
+    },
+    {
+      "id": "q02",
+      "kind": "answerable",
+      "question": "Which local note states atlas02?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-02"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 02: the marked token atlas02 is stored locally."
+      ]
+    },
+    {
+      "id": "q03",
+      "kind": "answerable",
+      "question": "Which local note states atlas03?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-03"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 03: the marked token atlas03 is stored locally."
+      ]
+    },
+    {
+      "id": "q04",
+      "kind": "answerable",
+      "question": "Which local note states atlas04?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-04"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 04: the marked token atlas04 is stored locally."
+      ]
+    },
+    {
+      "id": "q05",
+      "kind": "answerable",
+      "question": "Which local note states atlas05?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-05"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 05: the marked token atlas05 is stored locally."
+      ]
+    },
+    {
+      "id": "q06",
+      "kind": "answerable",
+      "question": "Which local note states atlas06?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-06"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 06: the marked token atlas06 is stored locally."
+      ]
+    },
+    {
+      "id": "q07",
+      "kind": "answerable",
+      "question": "Which local note states atlas07?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-07"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 07: the marked token atlas07 is stored locally."
+      ]
+    },
+    {
+      "id": "q08",
+      "kind": "answerable",
+      "question": "Which local note states atlas08?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-08"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 08: the marked token atlas08 is stored locally."
+      ]
+    },
+    {
+      "id": "q09",
+      "kind": "answerable",
+      "question": "Which local note states atlas09?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-09"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 09: the marked token atlas09 is stored locally."
+      ]
+    },
+    {
+      "id": "q10",
+      "kind": "answerable",
+      "question": "Which local note states atlas10?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-10"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 10: the marked token atlas10 is stored locally."
+      ]
+    },
+    {
+      "id": "q11",
+      "kind": "answerable",
+      "question": "Which local note states atlas11?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-11"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 11: the marked token atlas11 is stored locally."
+      ]
+    },
+    {
+      "id": "q12",
+      "kind": "answerable",
+      "question": "Which local note states atlas12?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-12"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 12: the marked token atlas12 is stored locally."
+      ]
+    },
+    {
+      "id": "q13",
+      "kind": "answerable",
+      "question": "Which local note states atlas13?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-13"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 13: the marked token atlas13 is stored locally."
+      ]
+    },
+    {
+      "id": "q14",
+      "kind": "answerable",
+      "question": "Which local note states atlas14?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-14"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 14: the marked token atlas14 is stored locally."
+      ]
+    },
+    {
+      "id": "q15",
+      "kind": "answerable",
+      "question": "Which local note states atlas15?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-15"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 15: the marked token atlas15 is stored locally."
+      ]
+    },
+    {
+      "id": "q16",
+      "kind": "answerable",
+      "question": "Which local note states atlas16?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-16"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 16: the marked token atlas16 is stored locally."
+      ]
+    },
+    {
+      "id": "q17",
+      "kind": "answerable",
+      "question": "Which local note states atlas17?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-17"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 17: the marked token atlas17 is stored locally."
+      ]
+    },
+    {
+      "id": "q18",
+      "kind": "answerable",
+      "question": "Which local note states atlas18?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-18"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 18: the marked token atlas18 is stored locally."
+      ]
+    },
+    {
+      "id": "q19",
+      "kind": "answerable",
+      "question": "Which local note states atlas19?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-19"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 19: the marked token atlas19 is stored locally."
+      ]
+    },
+    {
+      "id": "q20",
+      "kind": "answerable",
+      "question": "Which local note states atlas20?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-20"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 20: the marked token atlas20 is stored locally."
+      ]
+    },
+    {
+      "id": "q21",
+      "kind": "page_citation",
+      "question": "Which local note states atlas21?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-21"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 21: the marked token atlas21 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q22",
+      "kind": "page_citation",
+      "question": "Which local note states atlas22?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-22"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 22: the marked token atlas22 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q23",
+      "kind": "page_citation",
+      "question": "Which local note states atlas23?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-23"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 23: the marked token atlas23 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q24",
+      "kind": "page_citation",
+      "question": "Which local note states atlas24?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-24"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 24: the marked token atlas24 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q25",
+      "kind": "page_citation",
+      "question": "Which local note states atlas25?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-25"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 25: the marked token atlas25 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q26",
+      "kind": "page_citation",
+      "question": "Which local note states atlas26?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-26"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 26: the marked token atlas26 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q27",
+      "kind": "page_citation",
+      "question": "Which local note states atlas27?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-27"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 27: the marked token atlas27 is stored locally."
+      ],
+      "expected_page": 1
+    },
+    {
+      "id": "q28",
+      "kind": "answerable",
+      "question": "Which local note states atlas28?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-28"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 28: the marked token atlas28 is stored locally."
+      ]
+    },
+    {
+      "id": "q29",
+      "kind": "answerable",
+      "question": "Which local note states atlas29?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-29"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 29: the marked token atlas29 is stored locally."
+      ]
+    },
+    {
+      "id": "q30",
+      "kind": "answerable",
+      "question": "Which local note states atlas30?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-30"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 30: the marked token atlas30 is stored locally."
+      ]
+    },
+    {
+      "id": "q31",
+      "kind": "answerable",
+      "question": "Which local note states atlas31?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-31"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 31: the marked token atlas31 is stored locally."
+      ]
+    },
+    {
+      "id": "q32",
+      "kind": "answerable",
+      "question": "Which local note states atlas32?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-32"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 32: the marked token atlas32 is stored locally."
+      ]
+    },
+    {
+      "id": "q33",
+      "kind": "answerable",
+      "question": "Which local note states atlas33?",
+      "criteria": "The answer includes the marked token from the gold quote.",
+      "source_ids": [
+        "src-33"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 33: the marked token atlas33 is stored locally."
+      ]
+    },
+    {
+      "id": "q34",
+      "kind": "multi_passage",
+      "question": "Which two notes mention atlas01 and the later fact 34?",
+      "criteria": "The answer uses both gold quotes.",
+      "source_ids": [
+        "src-01",
+        "src-34"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 01: the marked token atlas01 is stored locally.",
+        "Atlas synthetic fact 34: the marked token atlas34 is stored locally."
+      ]
+    },
+    {
+      "id": "q35",
+      "kind": "multi_passage",
+      "question": "Which two notes mention atlas02 and the later fact 35?",
+      "criteria": "The answer uses both gold quotes.",
+      "source_ids": [
+        "src-02",
+        "src-35"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 02: the marked token atlas02 is stored locally.",
+        "Atlas synthetic fact 35: the marked token atlas35 is stored locally."
+      ]
+    },
+    {
+      "id": "q36",
+      "kind": "multi_passage",
+      "question": "Which two notes mention atlas03 and the later fact 36?",
+      "criteria": "The answer uses both gold quotes.",
+      "source_ids": [
+        "src-03",
+        "src-36"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 03: the marked token atlas03 is stored locally.",
+        "Atlas synthetic fact 36: the marked token atlas36 is stored locally."
+      ]
+    },
+    {
+      "id": "q37",
+      "kind": "multi_passage",
+      "question": "Which two notes mention atlas04 and the later fact 37?",
+      "criteria": "The answer uses both gold quotes.",
+      "source_ids": [
+        "src-04",
+        "src-37"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 04: the marked token atlas04 is stored locally.",
+        "Atlas synthetic fact 37: the marked token atlas37 is stored locally."
+      ]
+    },
+    {
+      "id": "q38",
+      "kind": "multi_passage",
+      "question": "Which two notes mention atlas05 and the later fact 38?",
+      "criteria": "The answer uses both gold quotes.",
+      "source_ids": [
+        "src-05",
+        "src-38"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 05: the marked token atlas05 is stored locally.",
+        "Atlas synthetic fact 38: the marked token atlas38 is stored locally."
+      ]
+    },
+    {
+      "id": "q39",
+      "kind": "multi_passage",
+      "question": "Which two notes mention atlas06 and the later fact 39?",
+      "criteria": "The answer uses both gold quotes.",
+      "source_ids": [
+        "src-06",
+        "src-39"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 06: the marked token atlas06 is stored locally.",
+        "The clinic linen gown paragraph says the north clinic folds each gown once, checks the hem for a loose thread, stacks twelve gowns on the cedar shelf, and writes the count in the linen book before the evening round. The same paragraph names the spare gown on the lower hook and the cotton tape used to close the collar. This sentence stays inside one gold quote so a four hundred character window cannot hold the whole gown paragraph while a one thousand character window can."
+      ]
+    },
+    {
+      "id": "q40",
+      "kind": "similar",
+      "question": "The clinic and the harbor both mention atlas01. What does the note say?",
+      "criteria": "The answer uses the shared gold quote and does not invent a second clinic.",
+      "source_ids": [
+        "src-01"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 01: the marked token atlas01 is stored locally."
+      ]
+    },
+    {
+      "id": "q41",
+      "kind": "similar",
+      "question": "The clinic and the harbor both mention atlas02. What does the note say?",
+      "criteria": "The answer uses the shared gold quote and does not invent a second clinic.",
+      "source_ids": [
+        "src-02"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 02: the marked token atlas02 is stored locally."
+      ]
+    },
+    {
+      "id": "q42",
+      "kind": "similar",
+      "question": "The clinic and the harbor both mention atlas03. What does the note say?",
+      "criteria": "The answer uses the shared gold quote and does not invent a second clinic.",
+      "source_ids": [
+        "src-03"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 03: the marked token atlas03 is stored locally."
+      ]
+    },
+    {
+      "id": "q43",
+      "kind": "similar",
+      "question": "The clinic and the harbor both mention atlas04. What does the note say?",
+      "criteria": "The answer uses the shared gold quote and does not invent a second clinic.",
+      "source_ids": [
+        "src-04"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 04: the marked token atlas04 is stored locally."
+      ]
+    },
+    {
+      "id": "q44",
+      "kind": "similar",
+      "question": "The clinic and the harbor both mention atlas05. What does the note say?",
+      "criteria": "The answer uses the shared gold quote and does not invent a second clinic.",
+      "source_ids": [
+        "src-05"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 05: the marked token atlas05 is stored locally."
+      ]
+    },
+    {
+      "id": "q45",
+      "kind": "similar",
+      "question": "The clinic and the harbor both mention atlas06. What does the note say?",
+      "criteria": "The answer uses the shared gold quote and does not invent a second clinic.",
+      "source_ids": [
+        "src-06"
+      ],
+      "relevant_quotes": [
+        "Atlas synthetic fact 06: the marked token atlas06 is stored locally."
+      ]
+    },
+    {
+      "id": "q46",
+      "kind": "unanswerable",
+      "question": "What is the zephyrwing quota for the north clinic?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q47",
+      "kind": "unanswerable",
+      "question": "Who signed the quoronite ledger?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q48",
+      "kind": "unanswerable",
+      "question": "When did the blorple ferry leave?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q49",
+      "kind": "unanswerable",
+      "question": "How many vexillar lamps were ordered?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q50",
+      "kind": "unanswerable",
+      "question": "Where is the snarfblatt stored?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q51",
+      "kind": "unanswerable",
+      "question": "What color is the yindle badge?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q52",
+      "kind": "unanswerable",
+      "question": "Which page lists the trombicle tax?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    },
+    {
+      "id": "q53",
+      "kind": "unanswerable",
+      "question": "Did the glimwort audit pass?",
+      "criteria": "The corpus does not contain this fact. The system should abstain.",
+      "source_ids": [],
+      "relevant_quotes": []
+    }
+  ]
+}
