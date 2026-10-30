@@ -1,0 +1,1 @@
+Synthetic atlas sample. Plain text for a local ingest check.
