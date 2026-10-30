@@ -1,0 +1,74 @@
+[project]
+name = "atlas"
+version = "0.1.0"
+description = "Local RAG assistant: ingest documents, retrieve evidence, and answer with citations."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi==0.159.1",
+    "pydantic==2.14.1",
+    "pydantic-settings==2.16.1",
+    "uvicorn==0.54.0",
+    "sqlalchemy==2.1.6",
+    "alembic==1.20.1",
+    "psycopg[binary]==3.3.6",
+    "pgvector==0.5.1",
+    "pymupdf==1.28.2",
+    "python-multipart==0.0.32",
+    "openai==3.36.1",
+    "httpx==0.28.1",
+    "streamlit==1.66.1",
+    "google-genai==2.33.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest==9.1.1",
+    "ruff==0.17.1",
+    "mypy==2.4.0",
+]
+rerank = [
+    "sentence-transformers==6.2.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+default-groups = ["dev"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+src = ["src", "tests", "scripts"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+# Sentence-length messages stay on one line so the text is easy to search.
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+plugins = ["pydantic.mypy"]
+mypy_path = "src"
+
+[[tool.mypy.overrides]]
+module = [
+    "fitz",
+    "fitz.*",
+    "openai",
+    "openai.*",
+    "google",
+    "google.*",
+    "streamlit",
+    "streamlit.*",
+    "sentence_transformers",
+    "sentence_transformers.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
